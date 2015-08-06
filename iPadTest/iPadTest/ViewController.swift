@@ -21,6 +21,13 @@ class ViewController: UIViewController {
     }
 
     
+    @IBAction func GoNext(sender: AnyObject) {
+        
+        let view : PhotosViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PhotosViewController") as! PhotosViewController;
+        
+        self.presentViewController(view, animated: true, completion: nil);
+        
+    }
 
 }
 

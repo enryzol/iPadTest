@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0D95F11CDCB662F32B41DF /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161C198475799F2CD42B894D /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5F1CE9061B72581A00D9C56D /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1CE9051B72581A00D9C56D /* PhotosViewController.swift */; };
 		5F4D29F81B72372200B82016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4D29F71B72372200B82016 /* AppDelegate.swift */; };
 		5F4D29FB1B72372200B82016 /* iPadTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F4D29F91B72372200B82016 /* iPadTest.xcdatamodeld */; };
 		5F4D29FD1B72372200B82016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4D29FC1B72372200B82016 /* ViewController.swift */; };
@@ -14,7 +16,9 @@
 		5F4D2A021B72372200B82016 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4D2A011B72372200B82016 /* Images.xcassets */; };
 		5F4D2A051B72372200B82016 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4D2A031B72372200B82016 /* LaunchScreen.xib */; };
 		5F4D2A111B72372200B82016 /* iPadTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4D2A101B72372200B82016 /* iPadTestTests.swift */; };
-		E4A43E1EB13DB699F70E4E56 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 931A76723EAEC5EE590F21FB /* libPods.a */; };
+		5F9C74081B73010F001DDAF0 /* loading1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F9C74051B73010F001DDAF0 /* loading1.png */; };
+		5F9C74091B73010F001DDAF0 /* loading2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F9C74061B73010F001DDAF0 /* loading2.png */; };
+		5F9C740A1B73010F001DDAF0 /* loading3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F9C74071B73010F001DDAF0 /* loading3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		0F91863D08ECA0E5ABA465AF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		161C198475799F2CD42B894D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1CE9051B72581A00D9C56D /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosViewController.swift; path = Controller/PhotosViewController.swift; sourceTree = "<group>"; };
 		5F4D29F21B72372200B82016 /* iPadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4D29F61B72372200B82016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F4D29F71B72372200B82016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +46,9 @@
 		5F4D2A0A1B72372200B82016 /* iPadTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPadTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4D2A0F1B72372200B82016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F4D2A101B72372200B82016 /* iPadTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadTestTests.swift; sourceTree = "<group>"; };
-		931A76723EAEC5EE590F21FB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9C74051B73010F001DDAF0 /* loading1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading1.png; path = images/loading1.png; sourceTree = "<group>"; };
+		5F9C74061B73010F001DDAF0 /* loading2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading2.png; path = images/loading2.png; sourceTree = "<group>"; };
+		5F9C74071B73010F001DDAF0 /* loading3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading3.png; path = images/loading3.png; sourceTree = "<group>"; };
 		A49AB55E079B98EC099FD41C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4A43E1EB13DB699F70E4E56 /* libPods.a in Frameworks */,
+				4D0D95F11CDCB662F32B41DF /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +94,8 @@
 		5F4D29F41B72372200B82016 /* iPadTest */ = {
 			isa = PBXGroup;
 			children = (
+				5F9C740B1B730AF1001DDAF0 /* Lib */,
+				5F9C74041B730044001DDAF0 /* Images */,
 				5F4D29F71B72372200B82016 /* AppDelegate.swift */,
 				5F4D29FC1B72372200B82016 /* ViewController.swift */,
 				5F4D29FE1B72372200B82016 /* Main.storyboard */,
@@ -93,6 +103,7 @@
 				5F4D2A031B72372200B82016 /* LaunchScreen.xib */,
 				5F4D29F91B72372200B82016 /* iPadTest.xcdatamodeld */,
 				5F4D29F51B72372200B82016 /* Supporting Files */,
+				5F1CE9051B72581A00D9C56D /* PhotosViewController.swift */,
 			);
 			path = iPadTest;
 			sourceTree = "<group>";
@@ -122,6 +133,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5F9C74041B730044001DDAF0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5F9C74051B73010F001DDAF0 /* loading1.png */,
+				5F9C74061B73010F001DDAF0 /* loading2.png */,
+				5F9C74071B73010F001DDAF0 /* loading3.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		5F9C740B1B730AF1001DDAF0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				5F9C740C1B730B05001DDAF0 /* Class */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		5F9C740C1B730B05001DDAF0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
 		65BEA1C120228D5C64CE6D7B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +170,7 @@
 		CAEC5BF72350FBCF3BFF922B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				931A76723EAEC5EE590F21FB /* libPods.a */,
+				161C198475799F2CD42B894D /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,6 +187,7 @@
 				5F4D29EF1B72372200B82016 /* Frameworks */,
 				5F4D29F01B72372200B82016 /* Resources */,
 				1DDDF89F30EE7D562BBC086B /* Copy Pods Resources */,
+				D43D8F64058D11D329D7FEDE /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +260,9 @@
 			files = (
 				5F4D2A001B72372200B82016 /* Main.storyboard in Resources */,
 				5F4D2A051B72372200B82016 /* LaunchScreen.xib in Resources */,
+				5F9C740A1B73010F001DDAF0 /* loading3.png in Resources */,
+				5F9C74091B73010F001DDAF0 /* loading2.png in Resources */,
+				5F9C74081B73010F001DDAF0 /* loading1.png in Resources */,
 				5F4D2A021B72372200B82016 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +307,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		D43D8F64058D11D329D7FEDE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -276,6 +331,7 @@
 			files = (
 				5F4D29FD1B72372200B82016 /* ViewController.swift in Sources */,
 				5F4D29F81B72372200B82016 /* AppDelegate.swift in Sources */,
+				5F1CE9061B72581A00D9C56D /* PhotosViewController.swift in Sources */,
 				5F4D29FB1B72372200B82016 /* iPadTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
