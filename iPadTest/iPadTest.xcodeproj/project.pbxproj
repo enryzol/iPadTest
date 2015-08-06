@@ -19,6 +19,7 @@
 		5F9C74081B73010F001DDAF0 /* loading1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F9C74051B73010F001DDAF0 /* loading1.png */; };
 		5F9C74091B73010F001DDAF0 /* loading2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F9C74061B73010F001DDAF0 /* loading2.png */; };
 		5F9C740A1B73010F001DDAF0 /* loading3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F9C74071B73010F001DDAF0 /* loading3.png */; };
+		5F9C740F1B730C02001DDAF0 /* JayLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C740E1B730C02001DDAF0 /* JayLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5F9C74051B73010F001DDAF0 /* loading1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading1.png; path = images/loading1.png; sourceTree = "<group>"; };
 		5F9C74061B73010F001DDAF0 /* loading2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading2.png; path = images/loading2.png; sourceTree = "<group>"; };
 		5F9C74071B73010F001DDAF0 /* loading3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading3.png; path = images/loading3.png; sourceTree = "<group>"; };
+		5F9C740E1B730C02001DDAF0 /* JayLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JayLoadingView.swift; path = Lib/Class/UI/JayLoadingView.swift; sourceTree = "<group>"; };
 		A49AB55E079B98EC099FD41C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,8 +156,17 @@
 		5F9C740C1B730B05001DDAF0 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				5F9C740D1B730BCF001DDAF0 /* UI */,
 			);
 			name = Class;
+			sourceTree = "<group>";
+		};
+		5F9C740D1B730BCF001DDAF0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5F9C740E1B730C02001DDAF0 /* JayLoadingView.swift */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 		65BEA1C120228D5C64CE6D7B /* Pods */ = {
@@ -329,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9C740F1B730C02001DDAF0 /* JayLoadingView.swift in Sources */,
 				5F4D29FD1B72372200B82016 /* ViewController.swift in Sources */,
 				5F4D29F81B72372200B82016 /* AppDelegate.swift in Sources */,
 				5F1CE9061B72581A00D9C56D /* PhotosViewController.swift in Sources */,
